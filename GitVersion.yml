@@ -4,4 +4,4 @@ branches: {}
 ignore:
   sha: []
 merge-message-formats: {}
-#+patch
+#+minor
