@@ -1,5 +1,7 @@
+next-version: 1
 mode: Mainline
 branches: {}
 ignore:
   sha: []
 merge-message-formats: {}
+#
