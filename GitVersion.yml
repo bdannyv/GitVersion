@@ -1,5 +1,9 @@
+#next-version: 1
 mode: Mainline
-branches: {}
+branches:
+  pull-request:
+    tag: "task"
+    regex: ^[t|T]-
 ignore:
   sha: []
 merge-message-formats: {}
