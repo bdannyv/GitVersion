@@ -2,7 +2,7 @@
 mode: Mainline
 branches:
   pull-request:
-    tag: "task"
+    tag: "+1"
     regex: ^[t|T]-
   develop:
     increment: Patch
