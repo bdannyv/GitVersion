@@ -1,5 +1,5 @@
-#next-version: 1
 mode: Mainline
+legacy-semver-padding: 3
 branches:
   pull-request:
     tag: "+1"
