@@ -1,5 +1,11 @@
+next-version: 1
 mode: Mainline
-branches: {}
+branches:
+  task:
+    regex: ^[T|t]-
+    increment: Patch
+    source-branches:
+    - master
 ignore:
   sha: []
 merge-message-formats: {}
