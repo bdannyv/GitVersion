@@ -1,5 +1,15 @@
 mode: Mainline
-branches: {}
+branches:
+  master:
+    prevent-increment-of-merged-branch-version: false
+    tracks-release-branches: true
+    track-merge-target: true
+    #increment: None
+  release:
+    regex: ^[T|t]-
+    increment: None
 ignore:
   sha: []
 merge-message-formats: {}
+#########
+###
